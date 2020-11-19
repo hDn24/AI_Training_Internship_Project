@@ -460,7 +460,7 @@ main {
     height: 378px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     /*background: green;*/
 }
 
@@ -517,15 +517,16 @@ main {
     /*background: blue;*/
 }
 .footer .footer-bottom {
+    /*background-color: red;*/
     text-align: center;
     /*margin-top: 50%;*/
     /*padding: 50px;*/
     border: 1px solid #B8B8B8; 
     width: 1440px;
-    position: absolute; 
+    /*position: absolute; */
     height: 90px;
-    left: 0px;
-    margin-top: 288px;
+    /*left: 0px;*/
+    /*margin-top: 288px;*/
     font-family: Mulish;
     font-style: normal;
     font-weight: normal;
