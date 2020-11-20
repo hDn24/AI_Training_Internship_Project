@@ -96,6 +96,7 @@ main{
 }
 
 .section-content .section-left{
+    position: relative;
     height: 592px;
     width: 920px;
 }
@@ -120,39 +121,43 @@ main{
     justify-content: space-between;
     width: 840px;
     height: 100px;
-    top: 502px ;
-    margin-left: 80px;
+    top: 432px ;
+    left: 80px;
 }
 
 .content-left-sub .left-sub-top{
     height: 21px;
-    width: 549px;
-    top: 24px;
+    /*width: 549px;*/
+    padding-top: 24px;
+    margin: 0px;
+    /*margin-top: 24px;*/
     margin-left: 42px;
     color: #FFFFFF;
     font-family: Roboto;
-/*    font-style: normal;
+    font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 21px;
-    color: #FFFFFF;*/
-    /*border-radius: nullpx;*/
+    color: #FFFFFF;
+    border-radius: nullpx;
 }
 
 .content-left-sub .left-sub-bottom{
     /*position: absolute;*/
     height: 21px;
-    width: 253px;
+    /*width: 253px;*/
+    margin: 0px;
+    padding-bottom: 19px;
     margin-left: 43px;
-    /*background-color: green;*/
     /*top: 552px;*/
+    /*margin-bottom: 19px;*/
     color: #FFFFFF;
     font-family: Roboto;
-/*    font-style: normal;
+    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    border-radius: nullpx;*/
+    border-radius: nullpx;
 }
 
 .section-right .content-right{
@@ -167,11 +172,11 @@ main{
 }
 
 .content-right .film{
-    display:  flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 95px;
-    width: 401px;
+    /*width: 401px;*/
     left: 960px;
     /* top: 370px; */
     border-radius: 4px;
