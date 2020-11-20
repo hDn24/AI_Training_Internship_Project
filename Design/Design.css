@@ -312,6 +312,7 @@ main{
     height: 46px;
     width: 296px;
     margin-left: 572px;
+    margin-right: 572px;
     border-radius: 30px;
     font-family: Mulish;
     font-style: normal;
@@ -381,12 +382,13 @@ main{
     width: 220px;
     height: 30%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .footer-top .footer-policy{
     height: 96px;
-    display: flex;
-    justify-content: space-between;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
 }
 .footer-policy .nav-policy{
     margin-left: 303px;
@@ -395,7 +397,16 @@ main{
     line-height: 96px;
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+}
+.nav-policy .policy {
+    text-decoration: none;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6C6C6C;
 }
 .footer-top .footer-logo{
     height: 96px;
