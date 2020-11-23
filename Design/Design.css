@@ -383,6 +383,7 @@ footer .footer-top{
     display: flex;
     justify-content: space-between;
     background: white;
+    align-items: center;
 }
 
 .footer-social .nav-social{
@@ -397,8 +398,8 @@ footer .footer-top{
 }
 .footer-top .footer-policy{
     height: 96px;
-    /*display: flex;*/
-    /*justify-content: space-between;*/
+    display: flex;
+    justify-content: space-between;
 }
 .footer-policy .nav-policy{
     margin-left: 303px;
@@ -406,16 +407,22 @@ footer .footer-top{
     width: 833px;
     line-height: 96px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
-.nav-policy .policy {
+.nav-policy div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-policy .policy{
     text-decoration: none;
     font-family: Mulish;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 150%;
+    padding: 0 auto;
     color: #6C6C6C;
 }
 .footer-top .footer-logo{
