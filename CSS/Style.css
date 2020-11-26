@@ -76,3 +76,84 @@ body{
     height: fit-content;
     display: flex;
 }
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 1190px;
+    width: 1440px;
+    top: 60px;
+    justify-content: space-between;
+}
+
+.main .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 592px;
+}
+
+.grid-content {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-gap: 30px;
+    padding: 60px 60px 80px 79px;
+    margin: 0;
+  }
+
+.banner {
+    grid-row: 1/5;
+    height: 472px;
+    width: 840px;
+    list-style: none;
+  }
+
+  .list-film{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 95px;
+    width: 401px;
+    border-radius: 4px;
+}
+
+
+.list-film .img-film {
+    width: 123px;
+    height: 95px;
+    border-radius: 4px;
+}
+
+.list-film .describe {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95px;
+    width: 261px;
+}
+
+.describe .link-film {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+    text-decoration: none;
+    height: 44px;
+    color: #3278C3;
+}
+
+.describe .describe-film{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    height: 48px;
+    width: 261px;
+    margin: 0px;
+    color: #323232;
+}
+
