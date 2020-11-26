@@ -81,7 +81,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 1190px;
-    width: 1440px;
+    width: 100%;
     top: 60px;
     justify-content: space-between;
 }
@@ -100,16 +100,54 @@ body{
     grid-gap: 30px;
     padding: 60px 60px 80px 79px;
     margin: 0;
-  }
+}
 
 .banner {
     grid-row: 1/5;
     height: 472px;
     width: 840px;
     list-style: none;
-  }
+    position: relative;
+}
 
-  .list-film{
+.banner .banner-sub{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 840px;
+    height: 100px;
+    top: 372px ;
+}
+
+.banner-sub .sub-top{
+    height: 21px;
+    padding-top: 24px;
+    margin: 0px;
+    margin-left: 42px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.banner-sub .sub-bottom{
+    height: 21px;
+    margin: 0px;
+    padding-bottom: 19px;
+    margin-left: 43px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.list-film{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -118,14 +156,13 @@ body{
     border-radius: 4px;
 }
 
-
-.list-film .img-film {
+.list-film .img-film{
     width: 123px;
     height: 95px;
     border-radius: 4px;
 }
 
-.list-film .describe {
+.list-film .describe{
     display: flex;
     text-align: left;
     flex-direction: column;
@@ -134,7 +171,7 @@ body{
     width: 261px;
 }
 
-.describe .link-film {
+.describe .link-film{
     font-family: Mulish;
     font-style: normal;
     font-weight: bold;
@@ -164,7 +201,7 @@ body{
     width: 1440px;
     border-radius: 8px;
     background: #E2EEFF;
-  }
+}
 
 .section-feature .feature-top{
     height: 81px;
@@ -188,17 +225,19 @@ body{
     padding: 0;
     justify-content: space-between;
 }
-.feature-list .film {
+
+.feature-list .film{
     width: 320px;
     height: 290px;
     margin: 0;
     padding: 0;
 }
-.section-feature .feature-bottom {
+
+.section-feature .feature-bottom{
     height: 106px;
 }
 
-.feature-top .feature-today {
+.feature-top .feature-today{
     width: 201px;
     height: 21px;
     margin-top: 60px;
