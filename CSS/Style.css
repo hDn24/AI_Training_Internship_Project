@@ -1,12 +1,13 @@
 body{
     margin: auto auto;
 }
-
 img{
     width: 100%;
     height: 100%;
 }
-
+a{
+    text-decoration: none;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -15,7 +16,6 @@ img{
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
 }
-
 .container{
     display: flex;
     justify-content: space-between;
@@ -24,11 +24,9 @@ img{
     height: 100%;
     padding: 0 5%;
 }
-
 .header .header-logo{
     display: flex;
 }
-
 .header .header-search {
     display: flex;
     justify-content: space-around;
@@ -39,9 +37,8 @@ img{
     border-radius: 30px;
     border: 1px solid #DADCE0;
 }
-
 .header-search .header-text{
-    width: 70%;
+    max-width: 70%;
     border: none;
     outline: none;
     font-style: normal;
@@ -50,14 +47,109 @@ img{
     line-height: 21px;
     color: #BBBBBB;
 }
-
 .header-search .header-btn{
     display: flex;
     align-items: center;
     background-color: transparent;
     border: none;
 }
-
 .header .header-sign-in{
     display: flex;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 1190px;
+    max-width: 1440px;
+    top: 60px;
+    justify-content: space-between;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+.section .section-content{
+    max-width: 1440px;
+    height: 592px;
+}
+.films-list{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-gap: 30px;
+    padding: 60px 80px;
+    margin: 0;
+}
+.films-list > :first-child{
+    grid-row: 1/5;
+    height: 472px;
+    max-width: 840px;
+    list-style: none;
+    position: relative;
+}
+.film-item{
+    display: flex;
+    justify-content: space-between;
+    height: 95px;
+    max-width: 401px;
+    border-radius: 4px;
+}
+.films-list > :first-child .item-banner{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    top: 372px ;
+    background: rgba(0, 0, 0, 0.7);
+}
+.item-banner .item-title{
+    max-width: 100%;
+    height: 21px;
+    padding-top: 24px;
+    margin: 0;
+    margin-left: 42px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 21px;
+}
+.item-banner .title-small{
+    padding-bottom: 19px;
+    font-size: 18px;
+}
+.film-item .item-image{
+    width: 123px;
+    height: 95px;
+    border-radius: 4px;
+}
+.film-item .item-info{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95px;
+    width: 261px;
+    margin-left: 10px;
+}
+.item-info .item-link{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    height: 44px;
+    color: #3278C3;
+}
+.item-info .item-desc{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    height: 48px;
+    margin: 0px;
+    color: #323232;
 }
