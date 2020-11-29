@@ -287,3 +287,75 @@ li{
     line-height: 170%;
     color: #B5B5B5;
 }
+.footer{
+    max-width: 1440px;
+    height: 378px;
+}
+.footer .footer-top{
+    height: 288px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-top .social-list{
+    height: 96px;
+    margin: auto;
+    min-width: 220px;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social-list .social-item{
+    max-width: 20px;
+    max-height: 20px;
+}
+.footer-top .policy-list{
+    height: 96px;
+    margin: 0 303px;
+    max-width: 833px;
+    line-height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.policy-list .policy-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2%;
+}
+.policy-item .item-link{
+    text-decoration: none;
+    text-align: center;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    min-width: 24px;
+    line-height: 150%;
+    color: #6C6C6C;
+}
+.footer-top .footer-logo{
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo .logo-end{
+    display: flex;
+    line-height: 96px;
+    text-align: center;
+}
+.footer .footer-bottom{
+    text-align: center;
+    border-top: 1px solid #B8B8B8; 
+    max-width: 1440px;
+    height: 90px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 90px;
+    color: #B5B5B5;
+}
