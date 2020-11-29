@@ -359,3 +359,74 @@ li{
     line-height: 90px;
     color: #B5B5B5;
 }
+
+@media screen and (max-width: 592px) {
+    .header .header-search {
+        margin: 0 auto;
+    }
+    .section .section-content{
+        height: auto;
+    }
+    .main{
+        height: auto;
+    }
+    .films-list{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    .film-item{
+        max-width: 100%;
+    }
+    .film-item .item-image{
+        width: 30%;
+    }
+    .film-item .item-info{
+        width: 70%;
+    }
+    .item-banner .item-title{
+        font-size: 30px;
+    }
+    .item-banner .title-small{
+        font-size: 15px;
+    }
+    .section-feature{
+        height: auto;
+    }
+    .footer-top .policy-list{
+        flex-direction: column;
+        margin: 0 20%;
+        height: auto;
+    }
+    .feature-bottom .btn-see-all{
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .section-feature{
+        height: auto;
+    }
+    .section-feature .feature-between{
+        height: auto;
+    }
+    .feature-top .feature-today{
+        margin-left: 20px;
+    }
+    .feature-between .feature-list{
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+        padding: 20px 10px;
+    }
+    .feature-list .feature-item{
+        max-width: 100%;
+    }
+    .feature-info .feature-link{
+        max-width: 100%;
+    }
+    .footer{
+        height: auto;
+    }
+    .footer-top{
+        height: auto;
+    }
+}
