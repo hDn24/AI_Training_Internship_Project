@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./CSS/Comment.css">
+    <script src="js/Comment.js"></script>
+    <title>Comment</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a class="header-logo" href="">
+                <img src="picture/logo.png">
+            </a>
+            <div class="header-search">
+                <input type="text" class="header-text" placeholder="Search"></input>
+                <button type="submit" class="header-btn"><img src="picture/ic_search.png"></button>
+            </div>
+            <a class="header-sign-in" href="">
+                <img src="picture/sign.png">
+            </a>
+        </div>
+    </header>
+    <main>
+        <section class="section section-content">
+            <ul class="films-list">
+                <li class="film-item">
+                    <img src="picture/content.png">
+                    <div class="item-banner">
+                        <h3 class="item-title">Can't Wait for ‘No Time to Die’?</h3>
+                        <p class="item-title title-small">Swap in These Streaming Picks</p>
+                    </div>
+                </li>
+                <li class="film-item">
+                    <div class="item-image"><img src="picture/film1.png"></div>
+                    <div class="item-info">
+                        <a href="" class="item-link">Lorem ipsum dolor sit amet consector dapster</a>
+                        <p class="item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, ...</p>
+                    </div>
+                </li>
+                <li class="film-item">
+                    <div class="item-image"><img src="picture/film2.png"></div>
+                    <div class="item-info">
+                        <a href="" class="item-link">Lorem ipsum dolor sit amet consector dapster</a>
+                        <p class="item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, ...</p>
+                    </div>
+                </li>
+                <li class="film-item">
+                    <div class="item-image"><img src="picture/film3.png"></div>
+                    <div class="item-info">
+                        <a href="" class="item-link">Lorem ipsum dolor sit amet consector dapster</a>
+                        <p class="item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, ...</p>
+                    </div>
+                </li>
+                <li class="film-item">
+                    <div class="item-image"><img src="picture/film4.png"></div>
+                    <div class="item-info">
+                        <a href="" class="item-link">Lorem ipsum dolor sit amet consector dapster</a>
+                        <p class="item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, ...</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="section-comment">
+            <h3 class="reply">Phản hồi</h3>
+            <form class="form-comment">
+                <textarea  class="comment" rows="2" id="comment" placeholder="Bình luận ở đây..."></textarea>
+                <button class="send" type="button" onclick="addComment()">GỬI</button>
+                </form> 
+        </section>  
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <ul class="social-list">
+                <li class="social-item"><img src="picture/facebook.png"></li>
+                <li class="social-item"><img src="picture/instagram.png"></li>
+                <li class="social-item"><img src="picture/twitter-sign.png"></li>
+                <li class="social-item"><img src="picture/youtube.png"></li>
+            </ul>
+            <ul class="policy-list">
+                <li class="policy-item"><a href="" class="item-link">Press Room</a></li>
+                <li class="policy-item"><a href="" class="item-link">Advertising</a></li>
+                <li class="policy-item"><a href="" class="item-link">Job</a></li>
+                <li class="policy-item"> <a href="" class="item-link">Conditions of Use</a></li>
+                <li class="policy-item"><a href="" class="item-link">Privacy Policy</a></li>
+                <li class="policy-item"><a href="" class="item-link">Interest-Based Ads</a></li>
+            </ul>
+            <div class="footer-logo">
+                <a class="logo-end" href="">
+                    <img src="picture/logo.png">
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2020 Supreme Tech .,ltd. All rights reserved.</div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,313 @@
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+}
+.header .header-logo{
+    display: flex;
+}
+.header .header-search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 399px;
+    margin-left: 30%;
+    background: #FFFFFF;
+    border-radius: 30px;
+    border: 1px solid #DADCE0;
+}
+.header-search .header-text{
+    max-width: 70%;
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #BBBBBB;
+}
+.header-search .header-btn{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+.header .header-sign-in{
+    display: flex;
+}
+.main{
+    height: 1190px;
+    max-width: 1440px;
+    top: 60px;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+.section .section-content{
+    max-width: 1440px;
+    height: 592px;
+}
+.films-list{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-gap: 30px;
+    padding: 60px 80px;
+}
+.films-list > :first-child{
+    grid-row: 1/5;
+    height: 472px;
+    max-width: 840px;
+    position: relative;
+}
+.film-item{
+    display: flex;
+    justify-content: space-between;
+    height: 95px;
+    max-width: 401px;
+    border-radius: 4px;
+}
+.films-list > :first-child .item-banner{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    top: 372px ;
+    background: rgba(0, 0, 0, 0.7);
+}
+.item-banner .item-title{
+    max-width: 100%;
+    height: 21px;
+    padding-top: 24px;
+    margin: 0;
+    margin-left: 42px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 21px;
+}
+.item-banner .title-small{
+    padding-bottom: 19px;
+    font-size: 18px;
+}
+.film-item .item-image{
+    width: 123px;
+    height: 95px;
+    border-radius: 4px;
+}
+.film-item .item-info{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95px;
+    width: 261px;
+    margin-left: 10px;
+}
+.item-info .item-link{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    height: 44px;
+    color: #3278C3;
+}
+.item-info .item-desc{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    height: 48px;
+    margin: 0px;
+    color: #323232;
+}
+#section-comment{
+    text-align: left;
+    padding: 0 5%;
+    max-width: 100%;
+    margin: 0;
+    background: #E2EEFF;
+}
+.form-comment{
+    max-width: 100%;
+    margin: 0;
+    text-align: left;
+}
+.reply{
+    text-align: left;
+}
+.comment{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 80%;
+    resize: none;
+}
+.send {
+    background-color: #4ABDAC;
+    border: 1px solid #4ABDAC;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: flex;
+}
+.send:hover {
+    background-color: blue;
+    border: 1px solid #f63c3c;
+}
+.footer{
+    max-width: 1440px;
+    height: 378px;
+}
+.footer .footer-top{
+    height: 288px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-top .social-list{
+    height: 96px;
+    margin: auto;
+    padding: 0;
+    min-width: 220px;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social-list .social-item{
+    max-width: 20px;
+    max-height: 20px;
+}
+.footer-top .policy-list{
+    height: 96px;
+    margin: 0 303px;
+    max-width: 100%;
+    line-height: 96px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.policy-list .policy-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2%;
+}
+.policy-item .item-link{
+    text-align: center;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    min-width: 24px;
+    line-height: 150%;
+    color: #6C6C6C;
+}
+.footer-top .footer-logo{
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo .logo-end{
+    display: flex;
+    line-height: 96px;
+    text-align: center;
+}
+.footer .footer-bottom{
+    text-align: center;
+    border-top: 1px solid #B8B8B8; 
+    max-width: 1440px;
+    height: 90px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 90px;
+    color: #B5B5B5;
+}
+
+
+@media screen and (max-width: 592px) {
+    .header{
+        margin: 0 20px;
+    }
+    .header .header-search {
+        margin: 0 auto;
+    }
+    .section .section-content{
+        height: auto;
+    }
+    .main{
+        height: auto;
+    }
+    .films-list{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    .film-item{
+        max-width: 100%;
+    }
+    .film-item .item-image{
+        width: 30%;
+    }
+    .film-item .item-info{
+        width: 70%;
+    }
+    .item-banner .item-title{
+        font-size: 30px;
+    }
+    .item-banner .title-small{
+        font-size: 15px;
+    }
+    .footer-top .policy-list{
+        flex-direction: column;
+        margin: 0 20%;
+        height: auto;
+    }
+    .footer{
+        height: auto;
+    }
+    .footer-top{
+        height: auto;
+    }
+}
